@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    android:background="@drawable/wallpaper2"
+    tools:context=".HomeActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="ברוך הבא"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:typeface="monospace"
+            android:layout_gravity="center"
+            />
+
+
+        <ImageButton
+            android:id="@+id/BtnLogout"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_margin="12dp"
+            android:foreground="@drawable/ic_logout_vector"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:minHeight="150dp"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <Button
+            android:id="@+id/BtnGoToJobsDone"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="12dp"
+            android:text="@string/jobDone"
+            android:background="@drawable/btn_home_fragment"
+            android:elevation="15dp"
+            />
+
+        <Button
+            android:id="@+id/BtnGoTOListJobToDo"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="12dp"
+            android:text="@string/ToDo"
+            android:background="@drawable/btn_home_fragment"
+            />
+
+        <Button
+            android:id="@+id/BtnGoToListMeeting"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="12dp"
+            android:text="@string/ListMeet"
+            android:background="@drawable/btn_home_fragment"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <Button
+            android:id="@+id/BtnGoToAddMeeting"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/btn_home_fragment"
+            android:text="@string/AddMeet" />
+
+        <Button
+            android:id="@+id/BtnGoToAddJob"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/btn_home_fragment"
+            android:text="@string/AddJob" />
+
+
+        <Button
+            android:id="@+id/BtnGoToCalendarNew"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/btn_home_fragment"
+            android:text="@string/Calender" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper2"
+    android:onClick="hideKeyboard"
+    tools:context=".AddJobToDoActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pageNewJob"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/TxtWrongAddJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5555"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/ClientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/nameInput"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:drawableLeft="@drawable/ic_person"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/ClientPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phoneInput"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:drawableLeft="@drawable/ic_phone"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/ClientAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addressInput"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:drawableLeft="@drawable/ic_address"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="  לחץ לבחירת תאריך "
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:drawableLeft="@drawable/ic_date"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/chosen_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvDate"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="16sp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="  לחץ לבחירת תאריך "-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginRight="100dp"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:background="@drawable/btnhomefragment"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/chosen_date"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textColor="@color/browser_actions_bg_grey"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginRight="35dp"-->
+<!--        android:layout_marginLeft="35dp"-->
+<!--        android:textAlignment="center"-->
+<!--        />-->
+
+    <EditText
+        android:id="@+id/ClientParquet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/serialInput"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/ClientMeters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="@string/meterInput"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/input_form"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/ClientPricePerMeter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/priceInput"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnAddNewJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="@string/BtnAdd"
+            android:layout_marginRight="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

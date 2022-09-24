@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper3"
+    tools:context=".JobDoneActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="עבודות שהסתיימו"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/numJobsDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/ListViewTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_ui"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:dividerHeight="4dp"
+            android:divider="#B7B7B7"
+            android:padding="7dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/BtnGoBackToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="חזור לעמוד הבית"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button"
+            android:padding="8dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

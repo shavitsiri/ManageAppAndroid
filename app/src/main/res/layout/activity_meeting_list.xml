@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper3"
+    tools:context=".MeetingListActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/ListMeetings"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+
+    <TextView
+        android:id="@+id/numMeetToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/checkable_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_ui"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:dividerHeight="4dp"
+            android:divider="#B7B7B7"
+            android:padding="7dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

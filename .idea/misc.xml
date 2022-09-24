@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/background_design_login.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/bg_calendar.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/border_ui.xml" value="0.1875" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/btnhomefragment.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/circle.xml" value="0.2015625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/circlebackground.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/circlebackground_btn.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/custom_button.xml" value="0.1984375" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/custombutton.xml" value="0.2015625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/custombutton2.xml" value="0.2015625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/ic_home.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/ic_image.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/ic_logout_vector.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/ic_person.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/ic_settings.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/input_form.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/login_inputs.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/loginwindow.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/drawable/profileback.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_add_comment.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_add_job_to_do.xml" value="0.2" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_add_meeting.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_calendar.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_catalog.xml" value="0.209375" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_comment_list.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_diary.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_event_edit.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_grid_item.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_guess_game.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_home2.xml" value="0.144" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_job_done.xml" value="0.1671875" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_list_job_to_do.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_meeting_list.xml" value="0.1375" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_menu_page.xml" value="0.176" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_metting_list.xml" value="0.264" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_pop_up.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_pop_up_window.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_seven_boom.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_week_view.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/activity_xo_game.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/event_cell.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/fragment_catalog.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/fragment_first.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/fragment_second.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/fragment_setting.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/fragment_third.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/loginwindow.xml" value="0.1328125" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/lv_item.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/popup.xml" value="0.1328125" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/row_data.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/row_layout_list_view.xml" value="0.25" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/layout/style_text_view.xml" value="0.176" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/menu/bottom_menu.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ArcadeGameVS1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/drawable/background_design_login.xml" value="0.1921875" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/drawable/bg_calendar.xml" value="0.1921875" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/drawable/border_ui.xml" value="0.1921875" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/drawable/btnHomeFragment.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/drawable/btn_home_fragment.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/absent_view.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/activity_calendar.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/activity_custom_calendar.xml" value="0.1375" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/activity_custom_calendar_l.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/activity_diary.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/activity_job_done.xml" value="0.1859375" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/activity_my_custom_calendar.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/current_view.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/custom_calendar.xml" value="0.1375" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/default_view.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/fragment_home.xml" value="0.1375" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/fragment_profile.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/present_view.xml" value="0.1515625" />
+        <entry key="..\:/Users/shavi/AndroidStudioProjects/ManageApp/app/src/main/res/layout/row_data.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

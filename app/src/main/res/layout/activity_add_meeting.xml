@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper2"
+    android:onClick="hideKeyboard"
+    tools:context=".AddMeeting">
+
+
+    <TextView
+        android:id="@+id/addjobform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="הוסף פגישה"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/TxtWrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5555"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/ClientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:inputType="text"
+        android:autofillHints="name"
+        android:hint="הכנס שם לקוח"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:drawableLeft="@drawable/ic_person"
+        android:padding="5dp"
+        />
+    <EditText
+        android:id="@+id/ClientAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="הכנס כתובת"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:drawableLeft="@drawable/ic_address"
+        android:padding="5dp"
+        />
+    <EditText
+        android:id="@+id/ClientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="טלפון לקוח"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:drawableLeft="@drawable/ic_phone"
+        android:padding="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="  לחץ לבחירת תאריך "
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        android:drawableLeft="@drawable/ic_date"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/chosen_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:textAlignment="center"
+        android:background="@drawable/input_form"
+        />
+
+    <Button
+        android:id="@+id/BtnAddMeeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="הוסף"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

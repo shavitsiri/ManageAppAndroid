@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ManageYourSelf</string>
+    <!--    <string name="app_name">ArcadeGame.VS1</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jobDone">עבודות שסתיימו</string>
+    <string name="ToDo">עבודות לביצוע</string>
+    <string name="temp">temp</string>
+    <string name="Catalog">קטלוג </string>
+    <string name="Calender">היומן </string>
+    <string name="ListMeet">רשימת פגישות</string>
+    <string name="AddJob">הוספת עבודה</string>
+    <string name="AddMeet">הוסף פגישה</string>
+    <string name="AddJobDone">סיום עבודה</string>
+    <string name="ListMeetings">רשימת פגישות</string>
+    <string name="ProfileHeader">עמוד פרופיל</string>
+    <string name="email">****@****.**</string>
+    <string name="pageNewJob"> הוסף עבודה </string>
+    <string name="addressInput">כתובת לקוח</string>
+    <string name="nameInput">שם לקוח</string>
+    <string name="phoneInput">טלפון לקוח</string>
+    <string name="dateInput"> תאריך </string>
+    <string name="serialInput">מספר דגם פרקט</string>
+    <string name="meterInput">כמות מטרים</string>
+    <string name="priceInput">מחיר למטר</string>
+    <string name="BtnAdd">הוסף</string>
+    <string name="chooseDate">בחר תאריך</string>
+</resources>
